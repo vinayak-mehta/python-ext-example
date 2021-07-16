@@ -12,7 +12,7 @@ with open("README.md", "r") as f:
     readme = f.read()
 
 ext_modules = [
-    Extension("example", sources=[os.path.join("src", "example", "example.c")])
+    Extension("example.example", sources=[os.path.join("src", "example", "example.c")])
 ]
 
 setup(
